@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Brian Smith"
 title_separator          : "-"
 name                     : "Brian Smith"
 description              : "A location to express my self."
-url                      : "https://hoshiningen.github.io"
+url                      : #"https://hoshiningen.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/Hoshiningen"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -73,12 +73,12 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/Hoshiningen"
+  github           : "Hoshiningen"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/brian-smith-aa2873113"
+  linkedin         : "bdsmith90"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -89,6 +89,7 @@ author:
   weibo            :
   xing             :
   youtube          :
+  resume 	   : "1POB8d8vpKasyL-mHV50jde2TDdpWO2O_GwJMdEUN0fo/edit?usp=sharing"
 
 
 # Reading Files
@@ -204,3 +205,18 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+defaults:
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
