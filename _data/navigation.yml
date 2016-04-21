@@ -1,10 +1,16 @@
 # main links links
 main:
   - title: "Portfolio"
-    url: /Portfolio/Data-Fitting/
+    url: /portfolio/chemistry-solver/
 
   - title: "Blog"
-    url: /Blog/
+    url: /blog/
 
   - title: "About"
-    url: /About/
+    url: /about/
+
+portfolio-nav:
+    - title: "Chemistry Solver"
+      url: /portfolio/chemistry-solver/
+    - title: "Data Fitting"
+      url: /portfolio/data-fitting/

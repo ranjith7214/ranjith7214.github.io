@@ -11,7 +11,7 @@ title                    : "Brian Smith"
 title_separator          : "-"
 name                     : "Brian Smith"
 description              : "A location to express my self."
-url                      : "https://hoshiningen.github.io"
+url                      : #"//hoshiningen.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/Hoshiningen"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -62,8 +62,8 @@ google_ad_slot           :
 # Site Author
 author:
   name             : "Brian Smith"
-  avatar           : "bio-photo.jpg"
-  bio              : "Professional jump-roper, computer science student, and macaroni and cheese maker."
+  avatar           : "profile.jpg"
+  bio              : "Computer science student. Loves smoked gouda, because it's goud-aaa."
   location         : "Apex, North Carolina"
   email            : "Hoshiningen@gmail.com"
   uri              :
@@ -89,7 +89,6 @@ author:
   weibo            :
   xing             :
   youtube          :
-  resume 	   : "1POB8d8vpKasyL-mHV50jde2TDdpWO2O_GwJMdEUN0fo/edit?usp=sharing"
 
 
 # Reading Files
@@ -206,17 +205,13 @@ compress_html:
   ignore:
     envs: development
 
-# Collections
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+# Pages
+include: ["_pages"]
 defaults:
-  # _portfolio
+  # _pages
   - scope:
       path: ""
-      type: portfolio
+      type: pages
     values:
       layout: single
       author_profile: false
-      share: true

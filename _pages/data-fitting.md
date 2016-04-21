@@ -1,8 +1,9 @@
 ---
 
-title: "Foo Bar Identity"
+permalink: /portfolio/data-fitting/
+title: "Data Fitting"
 
-excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
+excerpt: "A light-weight application that allows polynomial regression, beautiful chart creation, and data interpolation of data sets."
 header:
   
     image: foo-bar-identity-th.jpg  
@@ -10,22 +11,13 @@ header:
 
 sidebar:
   
-    - title: "Chemistry Solver"
-    
-      image: http://placehold.it/350x250
-
-      image_alt: "logo"
-
-      text: "Designer, Front-End Developer"
-
-    - title: "Datafit"
-      text: "Reuters try PR stupid commenters should isn't a business model ![hello](https://github.com/unicorn.png)"
-
+    title: "Projects"
+    nav: portfolio-nav        
 gallery: 
  
-    - url: bio-photo.jpg
+    - url: profile.jpg
 
-      image_path: bio-photo.jpg
+      image_path: profile.jpg
 
       alt: "Bio photo!"
 
