@@ -5,11 +5,9 @@ title: "Foo Bar Identity"
 excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
 header:
   
-    image: foo-bar-identity.jpg
-  
+    image: foo-bar-identity-th.jpg  
     teaser: foo-bar-identity-th.jpg
 
-    text: "Welcome to the jungle!"
 sidebar:
   
     - title: "Chemistry Solver"
@@ -21,7 +19,7 @@ sidebar:
       text: "Designer, Front-End Developer"
 
     - title: "Datafit"
-      text: "Reuters try PR stupid commenters should isn't a business model ![hello](bio-photo.jpg)"
+      text: "Reuters try PR stupid commenters should isn't a business model ![hello](https://github.com/unicorn.png)"
 
 gallery: 
  
