@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Portfolio"
-    url: /portfolio/chemistry-solver/
+  - title: "Projects"
+    url: /projects/
 
   - title: "Blog"
     url: /blog/
@@ -9,8 +9,66 @@ main:
   - title: "About"
     url: /about/
 
-portfolio-nav:
+chemistry-solver:
     - title: "Chemistry Solver"
-      url: /portfolio/chemistry-solver/
+      children:
+        - title: "Overview"
+          url: /chemistry-solver/overview/
+
+        - title: "Launcher"
+          url: /chemistry-solver/launcher/ 
+        
+        - title: "Equation Balancer"
+          url: /chemistry-solver/equation-balancer/
+
+        - title: "Combustion Analysis"
+          url: /chemistry-solver/combustion-analysis/
+
+        - title: "Stoichiometry"
+          url: /chemistry-solver/stoichiometry/
+
+        - title: "Periodic Table"
+          url: /chemistry-solver/periodic-table/
+
+        - title: "Empirical Formula Derivation"
+          url: /chemistry-solver/empirical-formula-derivation/
+
+        - title: "Unit Conversion"
+          url: /chemistry-solver/unit-conversion/
+
+data-fitting:
     - title: "Data Fitting"
-      url: /portfolio/data-fitting/
+      children:
+        - title: "Overview"
+          url: /data-fitting/overview/
+
+        - title: "Data Input"
+          url: /data-fitting/data-input/
+
+        - title: "Chart Creation"
+          url: /data-fitting/chart-creation/
+
+        - title: "Regression"
+          url: /data-fitting/regression/
+
+        - title: "Goodness of Fit Statistics"
+          url: /data-fitting/goodness-of-fit/
+
+        - title: "Final Chart Preview"
+          url: /data-fitting/final-chart-preview/
+
+        - title: "Residuals Chart"
+          url: /data-fitting/residuals-chart/
+
+        - title: "Interpolation"
+          url: /data-fitting/interpolation/
+
+        - title: "Saving Charts"
+          url: /data-fitting/saving-charts/
+
+projects:
+    - title: "Projects"
+      children:
+        - title: "Chemistry Solver"
+        - title: "Data Fitting"
+        

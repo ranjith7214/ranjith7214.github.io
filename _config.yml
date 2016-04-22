@@ -11,7 +11,7 @@ title                    : "Brian Smith"
 title_separator          : "-"
 name                     : "Brian Smith"
 description              : "A location to express my self."
-url                      : #"//hoshiningen.github.io"
+url                      : "//hoshiningen.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/Hoshiningen"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -207,6 +207,16 @@ compress_html:
 
 # Pages
 include: ["_pages"]
+
+# Collections
+collections:
+    chemistry-solver:
+      output: true
+      permalink: /:collection/:path/
+    data-fitting:
+      output: true
+      permalink: /:collection/:path/
+
 defaults:
   # _pages
   - scope:
@@ -215,3 +225,24 @@ defaults:
     values:
       layout: single
       author_profile: false
+  # _chemistry-solver
+  - scope:
+      path: ""
+      type: chemistry-solver
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      sidebar:
+         nav: chemistry-solver
+  # _data-fitting
+  - scope:
+      path: ""
+      type: data-fitting
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      sidebar:
+         nav: data-fitting
+
