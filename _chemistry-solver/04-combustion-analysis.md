@@ -2,5 +2,4 @@
 title: "Combustion Analysis"
 permalink: /chemistry-solver/combustion-analysis/
 ---
-
-{% include base_path %}
+This page is intentionally left empty because the Combustion Analysis tool is incomplete in the Chemistry Solver application. It will be updated as the tool is completed.
