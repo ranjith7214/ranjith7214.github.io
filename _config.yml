@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Brian Smith"
+title                    : "Hoshiningen"
 title_separator          : "-"
-name                     : "Brian Smith"
+name                     : "Hoshiningen"
 description              : "A location to express my self."
 url                      : "//hoshiningen.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
