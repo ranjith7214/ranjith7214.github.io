@@ -42,29 +42,14 @@ data-fitting:
         - title: "Overview"
           url: /data-fitting/overview/
 
-        - title: "Data Input"
-          url: /data-fitting/data-input/
+        - title: "Chart Data"
+          url: /data-fitting/chart-data/
 
-        - title: "Chart Creation"
-          url: /data-fitting/chart-creation/
+        - title: "Chart Settings"
+          url: /data-fitting/chart-settings/
 
-        - title: "Regression"
-          url: /data-fitting/regression/
-
-        - title: "Goodness of Fit Statistics"
-          url: /data-fitting/goodness-of-fit/
-
-        - title: "Final Chart Preview"
-          url: /data-fitting/final-chart-preview/
-
-        - title: "Residuals Chart"
-          url: /data-fitting/residuals-chart/
-
-        - title: "Interpolation"
-          url: /data-fitting/interpolation/
-
-        - title: "Saving Charts"
-          url: /data-fitting/saving-charts/
+        - title: "Data Visualization"
+          url: /data-fitting/data-visualization/
 
 projects:
     - title: "Projects"
