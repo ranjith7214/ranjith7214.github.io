@@ -11,6 +11,6 @@ feature_row:
     url: /data-fitting/overview/
     alt: "Data Fitting"
     title: "Data Fitting"
-    excerpt: "A light-weight application that regresses data, creates beautiful charts, and allows interpolation."
+    excerpt: "A light-weight application that provides the functionality to create, customize, and save beautiful charts, perform polynomial regression, and make predictions through interpolation."
 ---
 {% include feature_row type="left"%}
