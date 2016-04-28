@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Hoshiningen"
 title_separator          : "-"
 name                     : "Hoshiningen"
-description              : "A location to express my self."
+description              : "A central location where I can express myself through a personal blog and where I can display the projects I've been working on over the last couple of years."
 url                      : "//hoshiningen.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/Hoshiningen"
@@ -63,7 +63,7 @@ google_ad_slot           :
 author:
   name             : "Brian Smith"
   avatar           : "profile.jpg"
-  bio              : "Computer science student. Loves smoked gouda, because it's goud-aaa."
+  bio              : "A computer science student at Appalachian State University who also happens to be an unashamed cheese-a-tarian, computer geek, nerd, and bird lover."
   location         : "Apex, North Carolina"
   email            : "Hoshiningen@gmail.com"
   uri              :

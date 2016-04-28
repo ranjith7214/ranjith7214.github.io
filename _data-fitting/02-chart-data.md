@@ -11,7 +11,7 @@ The chart data tab is where the user can manipulate the data that the program us
 ### Data Entry
 The user has 2 options for data entry, the first is by importing data from a .csv file, and the second, through manual entry. To import a file, the user should click the 'import' button, at the top of the window, and select the file they wish to import data from.
 
-The format of the .csv file is important to understand before creating and importing data files. The data file consists of a collection of columns, each with a header value that labels it. The data underneath each header value is the data that column provides, and all columns must contain the same number of values. Below is an example of a properly formated table as seen in a spread sheet.
+The format of the .csv file is important to understand before creating and importing data files. The data file consists of a collection of columns, each with a header value that labels it. The data underneath each header value is the data that column provides, and all columns must contain the same number of values. Below is an example of a properly formatted table as seen in a spreadsheet.
 
 ![Chart Data](/images/portfolio/data-fitting/chart-data-file-structure.png){: .align-center}
 
