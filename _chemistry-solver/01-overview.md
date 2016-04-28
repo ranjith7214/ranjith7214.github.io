@@ -1,6 +1,6 @@
 ---
 title: "Overview"
-permalink: /chemistry-solver/overview
+permalink: /chemistry-solver/overview/
 ---
 ### Summary
 Chemistry Solver is an application designed to help solve common chemistry problems offered in an introductory or general chemistry course. It's currently a work in process, but it's planned to include tools for Equation Balancing, Combustion Analysis, Stoichiometry, Empirical Formula Derivation, a Periodic Table, and Unit Conversion.
