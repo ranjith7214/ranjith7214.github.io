@@ -11,16 +11,16 @@ title                    : "Hoshiningen"
 title_separator          : "-"
 name                     : "Brian Smith"
 description              : "A central location where I can express myself through a personal blog and where I can display the projects I've been working on over the last couple of years."
-url                      : "//hoshiningen.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-gh_repo                  : "https://github.com/Hoshiningen"
+url                      :
+baseurl                  : //hoshiningen.github.io
+gh_repo                  : "https://github.com/Hoshiningen/hoshiningen.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-# breadcrumbs            : false # true, false (default)
+# breadcrumbs            :  # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "facebook", "google-plus", custom"
+  provider               : "disqus" # false (default), "disqus", "facebook", "google-plus", custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "Hoshiningen"
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
@@ -149,7 +149,7 @@ kramdown:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: US/Eastern
 
 
 # Plugins
@@ -225,6 +225,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _chemistry-solver
   - scope:
       path: ""
@@ -247,4 +258,3 @@ defaults:
       share: true
       sidebar:
          nav: data-fitting
-
