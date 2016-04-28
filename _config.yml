@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Hoshiningen"
 title_separator          : "-"
-name                     : "Hoshiningen"
+name                     : "Brian Smith"
 description              : "A central location where I can express myself through a personal blog and where I can display the projects I've been working on over the last couple of years."
 url                      : "//hoshiningen.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
