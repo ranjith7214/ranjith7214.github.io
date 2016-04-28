@@ -1,5 +1,5 @@
 ---
-title: "First Blog Post"
+title: "How to make a Jekyll Website"
 categories:
     - Uncategorized
     - Website Creation
