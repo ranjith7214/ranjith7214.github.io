@@ -2,7 +2,9 @@
 title: "Chart Data"
 permalink: /data-fitting/chart-data/
 ---
-![Chart Data](/images/portfolio/data-fitting/chart-data-gui.png){: .align-center}
+{% include base_path %}
+
+![Chart Data]({{base_path}}/images/portfolio/data-fitting/chart-data-gui.png){: .align-center}
 {% include toc %}
 
 ### Overview
@@ -13,7 +15,7 @@ The user has 2 options for data entry, the first is by importing data from a .cs
 
 The format of the .csv file is important to understand before creating and importing data files. The data file consists of a collection of columns, each with a header value that labels it. The data underneath each header value is the data that column provides, and all columns must contain the same number of values. Below is an example of a properly formatted table as seen in a spreadsheet.
 
-![Chart Data](/images/portfolio/data-fitting/chart-data-file-structure.png){: .align-center}
+![Chart Data]({{base_path}}/images/portfolio/data-fitting/chart-data-file-structure.png){: .align-center}
 
 
 **Note:** Saving a spreadsheet containing a properly formatted table as a .csv file will create a file that can be read by the application.
@@ -21,7 +23,7 @@ The format of the .csv file is important to understand before creating and impor
 
 If the user imported a .csv file containing the above information, and the user selected the 'Y=X*X + X' column as the y data, it would appear like this in the application:
 
-![Chart Data](/images/portfolio/data-fitting/chart-data-imported.png){: .align-center}
+![Chart Data]({{base_path}}/images/portfolio/data-fitting/chart-data-imported.png){: .align-center}
 
 If the user decides to manually input data, they must first create a new column, or assign a column to a specific x or y data range. In order to create a new column, the user must first navigate to the 'Manage Data Columns' section, type the column name in, and press the 'Add' button. There is no limit to the amount of columns a user can add, the only requirement is that each column must have a unique name.
 

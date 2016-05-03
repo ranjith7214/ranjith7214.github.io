@@ -2,7 +2,9 @@
 title: "Data Visualization"
 permalink: /data-fitting/data-visualization/
 ---
-![Visualize Data](/images/portfolio/data-fitting/visualize-data-gui.png){: .align-center}
+{% include base_path %}
+
+![Visualize Data]({{base_path}}/images/portfolio/data-fitting/visualize-data-gui.png){: .align-center}
 {% include toc %}
 
 ### Overview
@@ -18,9 +20,9 @@ To validate the fit of the polynomial trend line, goodness of fit statistics and
 
 In order to have confidence that the statistics are correct, the user should observe the residuals chart. The residuals chart is the prediction of error in the trend line, and should contain values in a random pattern. If the residuals chart isn't random, then there is a problem with the trend line and it should be improved. For the purpose of the Data Fitting application, this implies a change in polynomial degree must be made. 
 
-The image below shows a the residuals chart and statistics for the data entered at [the beginning](/data-fitting/chart-data/), and demonstrates a good polynomial fit.
+The image below shows a the residuals chart and statistics for the data entered at [the beginning]({{base_path}}/data-fitting/chart-data/), and demonstrates a good polynomial fit.
 
-![Residuals Chart Preview](/images/portfolio/data-fitting/visualize-data-residuals.png){: .align-center}
+![Residuals Chart Preview]({{base_path}}/images/portfolio/data-fitting/visualize-data-residuals.png){: .align-center}
 
 ### Data Interpolation
 Interpolation is provided at the top of the window in it's respective section, and consists of a textbox where the user can type in x values. As the user types in values, the predicted value will be calculated and displayed to the right of the textbox where the x value was entered. If the user is so inclined, extrapolation is also possible, and occurs when the user types in a value not within the range of values given in the data set. Extrapolation is inherently inaccurate for polynomials greater than degree 1, unless one has been created for a predefined set of data that already has a matching polynomial. For example, if data had been recorded for the polynomial `y = x^2 + x`, the least squares method would be able to match that polynomial perfectly and extrapolation would be 100% accurate.
@@ -28,14 +30,14 @@ Interpolation is provided at the top of the window in it's respective section, a
 ### Final Chart Preview
 Once the user is satisfied with the customization choices and trendline, they can preview what the final chart will look like in the 'Curve' tab. The preview chart has all the data, customization, and regression settings added to it, and is in the chart's final resolution. If the user isn't happy with what they see, they can navigate back one tab, and modify the chart's settings as many times as they like, however, if they are happy, they can choose to save the chart and use it in other programs.
 
-![Final Chart Preview](/images/portfolio/data-fitting/visualize-data-curve.png){: .align-center}
+![Final Chart Preview]({{base_path}}/images/portfolio/data-fitting/visualize-data-curve.png){: .align-center}
 
 ### Saving Charts
 To save a chart, the user must first navigate to the chart they wish to save, either the curve or residual chart, and press the save button. Charts can be saved in a variety of image formats, which include: bmp, png, jpg, tiff, and gif. Since charts are saved as images, they can easily be imported to other programs, such as websites and word documents. Below is an example of a saved curve and residual chart.
 
 The curve chart:
-![Final Chart](/images/portfolio/data-fitting/final-chart.png){: .align-center}
+![Final Chart]({{base_path}}/images/portfolio/data-fitting/final-chart.png){: .align-center}
 
 The residuals chart:
-![Residuals Chart](/images/portfolio/data-fitting/residuals-chart.png){: .align-center}
+![Residuals Chart]({{base_path}}/images/portfolio/data-fitting/residuals-chart.png){: .align-center}
 

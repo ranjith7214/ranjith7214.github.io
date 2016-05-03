@@ -2,7 +2,9 @@
 title: "Unit Conversion"
 permalink: /chemistry-solver/unit-conversion/
 ---
-![Unit Converter](/images/portfolio/chemistry-solver/unit-converter.png){: .align-center}
+{% include base_path %}
+
+![Unit Converter]({{base_path}}/images/portfolio/chemistry-solver/unit-converter.png){: .align-center}
 
 {% include toc %}
 
@@ -12,11 +14,11 @@ The Unit Conversion tool provides the functionality to convert between units of 
 ### Usage
 For the Unit Conversion tool to perform any conversions, the conversion type and the units of the initial and desired values must first be selected. The conversion type is chosen from the large combo box at the top of the window.
 
-![Unit Converter](/images/portfolio/chemistry-solver/unit-converter-type-selection.png){: .align-center}
+![Unit Converter]({{base_path}}/images/portfolio/chemistry-solver/unit-converter-type-selection.png){: .align-center}
 
 The units of the initial and desired values are selected by changing the combo boxes on both sides of the '=' sign, to the desired values. The collection of units on both sides of the equation are exactly the same, and updates to reflect the conversion type as it's changed.
 
-![Unit Converter](/images/portfolio/chemistry-solver/unit-converter-unit-selection.png){: .align-center}
+![Unit Converter]({{base_path}}/images/portfolio/chemistry-solver/unit-converter-unit-selection.png){: .align-center}
 
 The '=' sign signifies that the values on both side are equivalent at all times, and so modifying the values in the text boxes on either side of the equation will cause a resulting change on the opposite side to ensure equality. In addition, as values are changed, the resulting change will happen immediately.
 
@@ -25,11 +27,11 @@ To add custom units, or modify existing units, the 'UnitConversion.csv' file mus
 
 A conversion table provides the functionality to convert between units found within it, and must be formatted correctly in order for it to be read by the program. In the upper left hand corner of the table, the type of conversion the table performs is listed. Every cell directly below the upper left hand corner will contain a single, unique, unit for every unit the table provides a conversion for. The rows directly to the right of the upper left hand corner will contain the transposed column of units previously mentioned. The table is read from left to right, such that 1 of the unit listed in the unit column is equal to x of the unit in the unit row.
 
-![Conversion Table Format](/images/portfolio/chemistry-solver/conversion-table-setup.png){: .align-center}
+![Conversion Table Format]({{base_path}}/images/portfolio/chemistry-solver/conversion-table-setup.png){: .align-center}
 
 Consequently, this creates a diagonal of 1's going from top left to bottom right for conversions between units of the same type, and also separates the table into upper and lower triangles. The upper triangle, diagonal included, is the only information that needs to be filled out. Information in the lower triangle is the inverse of the transposed value in the upper triangle, and is calculated by the program when requested. For example, a table that provides conversion information for time with the units: nanosecond, microsecond, millisecond, and second, would be formatted as follows:
 
-![Conversion Table Format](/images/portfolio/chemistry-solver/conversion-table-completed.png){: .align-center}
+![Conversion Table Format]({{base_path}}/images/portfolio/chemistry-solver/conversion-table-completed.png){: .align-center}
 
 {: .notice--warning}
 **Warning!** Editing the 'UnitConversion.csv' file can be dangerous as the file is required for the Unit Conversion tool to run correctly. If the file is ever undesireably changed, a new copy can be obtained from [here](https://github.com/Hoshiningen/Chemistry-Solver/blob/master/Chemistry-Solver/Chemistry-Solver/data/UnitConversion.csv).

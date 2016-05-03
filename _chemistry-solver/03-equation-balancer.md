@@ -2,7 +2,9 @@
 title: "Equation Balancer"
 permalink: /chemistry-solver/equation-balancer/
 ---
-![Equation Balancer](/images/portfolio/chemistry-solver/equation-balancer.png){: .align-center}
+{% include base_path %}
+
+![Equation Balancer]({{base_path}}/images/portfolio/chemistry-solver/equation-balancer.png){: .align-center}
 
 {% include toc %}
 
@@ -30,12 +32,12 @@ Separators come in two forms, a ```+``` and a ```-->```. Pluses separate consecu
 ```
 And would appear like this in the application:
 
-![Equation Input](/images/portfolio/chemistry-solver/equation-balancer-input.png){: .align-center}
+![Equation Input]({{base_path}}/images/portfolio/chemistry-solver/equation-balancer-input.png){: .align-center}
 
 ### Balancing Equations
 To balance an equation, an equation in the correct format, must first be supplied. Clicking the balance button will then balance the equation and display the results in an output space at the bottom of the tool.
 
-![Equation Input](/images/portfolio/chemistry-solver/equation-balancer-balanced.png){: .align-center}
+![Equation Input]({{base_path}}/images/portfolio/chemistry-solver/equation-balancer-balanced.png){: .align-center}
 
 The calculated coefficients of each reactant and product will be colored in a way to make them easily noticeable so the user can see how the application balanced the equation.
 

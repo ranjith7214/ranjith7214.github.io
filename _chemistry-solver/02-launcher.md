@@ -2,7 +2,9 @@
 title: "Launcher"
 permalink: /chemistry-solver/launcher/
 ---
-![launcher](/images/portfolio/chemistry-solver/launcher.png){: .align-center}
+{% include base_path %}
+
+![launcher]({{base_path}}/images/portfolio/chemistry-solver/launcher.png){: .align-center}
 
 The launcher is the starting point of the application, and it's sole purpose is to *launch* the various tools supplied by Chemistry Solver. One copy of each tool is allowed to run at any given time, and multiple tools can run simultaneously. In addition, tools are grouped by type so that they'll be easier to find once more tools are added in the future.
 
