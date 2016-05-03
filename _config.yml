@@ -11,7 +11,7 @@ title                    : "Hoshiningen"
 title_separator          : "-"
 name                     : "Brian Smith"
 description              : "A central location where I can express myself through a personal blog and where I can display the projects I've been working on over the last couple of years."
-url                      :
+url                      : https://hoshiningen.github.io
 baseurl                  : //hoshiningen.github.io
 gh_repo                  : "https://github.com/Hoshiningen/hoshiningen.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
