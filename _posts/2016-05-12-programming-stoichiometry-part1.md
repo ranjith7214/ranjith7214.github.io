@@ -103,7 +103,7 @@ And for sugar,
 \end{array}
 "></div>
 
-With stoichiometry, we were able to solve the baker's ingredient delima, and determine that with 2 cups of all purpose flour, the recipe will make 32 cookies. Furthermore, to maintain the same ingredient ratios, the other ingredients in the recipe needed to be used in less amounts. We determined that <span class="equation" data-expr="^2/_3"></span> cups of butter and 1 cup of sugar will combine with the 2 cups of flour to produce the same *great* tasting cookies.
+With stoichiometry, we were able to solve the baker's ingredient dilemma, and determine that with 2 cups of all purpose flour, the recipe will make 32 cookies. Furthermore, to maintain the same ingredient ratios, the other ingredients in the recipe needed to be used in less amounts. We determined that <span class="equation" data-expr="^2/_3"></span> cups of butter and 1 cup of sugar will combine with the 2 cups of flour to produce the same *great* tasting cookies.
 
 The baking example above is a real life application of stoichiometry, but chemistry is the field where it's most commonly used. Where chemical equations are to recipes, ingredients and the finished result is to reactants and products. A chemical equation is essentially the 'recipe' for a chemical reaction, where reactants are the ingredients, and the products are the end result. In chemistry, similar situations as what was solved above arise frequently. For example, a chemist might have a limited amount of reactant, or might want to know how much of each reactant that will be needed to produce an exact quantity of product. 
 
