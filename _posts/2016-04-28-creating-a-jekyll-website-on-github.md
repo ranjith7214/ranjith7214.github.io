@@ -1,6 +1,8 @@
 ---
 title: "Creating a Jekyll Website on GitHub"
-excerpt: "My personal experience and guide on how to create a Jekyll based GitHub Website."
+header:
+    overlay_color: "#777"
+excerpt: "In this post, I delve into the journey I took when creating a personal website using jekyll and github. I discuss why I wanted to make a personal website, what my intentions are in having one, and how I went about creating it. Topics include github, markdown, jekyll, and ruby gems."
 categories:
     - Guides
     - Web
@@ -14,11 +16,6 @@ tags:
     - RubyGems
     - Personal Experience
 ---
-
-_First of all, let me preface this by telling you that I have very limited experience creating websites. I primarily work with C# developing desktop applications, and so this was definitely a new and rewarding experience for me. While I was learning about how to use Jekyll, I asked a lot of questions and gained a better understanding of how everything works. I'd like to share the things I learned while creating this website, and hopefully teach others to make one as well._
-
-* * *
-
 Ever since I got back from the Spring Open House at Appalachian State, I knew that I wanted to create a website that hosted my portfolio. I wanted to show my professors and friends, and future employers the things I've been working on, but I didn't know how to create a website to do that. I had heard about GitHub pages a while ago when I first created my account on GitHub, but I hadn't done much research on it until a few days ago.
 
 ### What are GitHub Pages?
