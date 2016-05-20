@@ -18,7 +18,9 @@ tags:
 {% include katex_import.html %}
 
 ### What is Stoichiometry?
-Let's say you just got a random urge to make some cookies. You go online, find a *great* recipe, and start gathering all the ingredients you need. According to the recipe, you can make 48 cookies from the following ingredients: 
+{% include toc %}Let's say you just got a random urge to make some cookies. You go online, find a *great* recipe, and start gathering all the ingredients you need. According to the recipe, you can make 48 cookies from the following ingredients: 
+
+
 
 * 3 cups all purpose flour
 * 1 cup butter

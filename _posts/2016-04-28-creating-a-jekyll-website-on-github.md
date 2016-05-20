@@ -16,6 +16,7 @@ tags:
     - RubyGems
     - Personal Experience
 ---
+{% include toc %}
 Ever since I got back from the Spring Open House at Appalachian State, I knew that I wanted to create a website that hosted my portfolio. I wanted to show my professors and friends, and future employers the things I've been working on, but I didn't know how to create a website to do that. I had heard about GitHub pages a while ago when I first created my account on GitHub, but I hadn't done much research on it until a few days ago.
 
 ### What are GitHub Pages?
