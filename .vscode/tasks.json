@@ -1,0 +1,23 @@
+{
+    "version": "0.1.0",
+    "command": "cmd",
+    "args": ["/C", "bundle", "exec", "jekyll"],
+    "isShellCommand": true,
+    "showOutput": "always",
+    "tasks": 
+    [
+        {
+            "taskName": "Serve",
+            "showOutput": "always",
+            "suppressTaskName": true,
+            "args": ["serve", "--config", "_config.dev.yml"]
+        },
+        {
+            "taskName": "Build",
+            "showOutput": "always",
+            "suppressTaskName": true,
+            "isBuildCommand": true,
+            "args": ["build"]
+        }   
+    ]
+}
