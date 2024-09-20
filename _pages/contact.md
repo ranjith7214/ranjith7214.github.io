@@ -84,7 +84,7 @@ title: "Get in Touch"
 
     <h2>Hello there! 👋</h2>
 
-    <p>I'm Ansh Shah, and I'm thrilled that you want to get in touch. Feel free to reach out through any of the following channels:</p>
+    <p>I'm Ranjith Kumar, and I'm thrilled that you want to get in touch. Feel free to reach out through any of the following channels:</p>
 
     <!-- Formspree form -->
     <form action="https://formspree.io/f/mpzgnvqv" method="POST">
@@ -99,14 +99,14 @@ title: "Get in Touch"
 
     <h3>Email</h3>
     <ul>
-      <li><a href="mailto:anshshah3009@gmail.com">📧 anshshah3009@gmail.com</a></li>
+      <li><a href="mailto:Ranjith7214@gmail.com">📧 Ranjith7214@gmail.com</a></li>
     </ul>
 
     <h3>Connect on Nerd Social Media</h3>
     <ul>
-      <li><a href="http://linkedin.com/in/anshshah3009">👔 LinkedIn</a></li>
-      <li><a href="http://github.com/AnshShah3009">💼 GitHub</a></li>
-      <li><a href="https://twitter.com/baymax3009">🐦 Twitter</a></li>
+      <li><a href="http://linkedin.com/in/ranjithkumar7214">👔 LinkedIn</a></li>
+      <li><a href="http://github.com/ranjith7214">💼 GitHub</a></li>
+      <li><a href="">🐦 Twitter</a></li>
     </ul>
 
     <p>Don't hesitate to drop a message, whether it's about collaboration, projects, or just to say hi. I'm looking forward to hearing from you!</p>
