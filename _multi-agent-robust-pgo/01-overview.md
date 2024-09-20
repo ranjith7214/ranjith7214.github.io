@@ -3,7 +3,7 @@ title: "Overview"
 permalink: /multi-agent-robust-pgo/
 ---
 <div>
-    <a href="https://github.com/AnshShah3009/gtsam_tutorials" target="_blank" style="display: inline-block; padding: 10px 15px; background-color: #24292e; color: #ffffff; border-radius: 5px; font-family: Arial, sans-serif; text-decoration: none;">
+    <a href="" target="_blank" style="display: inline-block; padding: 10px 15px; background-color: #24292e; color: #ffffff; border-radius: 5px; font-family: Arial, sans-serif; text-decoration: none;">
         <i class="fab fa-github" style="margin-right: 5px;"></i> View on GitHub
     </a>
 </div>

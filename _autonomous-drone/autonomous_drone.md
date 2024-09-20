@@ -12,7 +12,7 @@ permalink: /autonomous-drone/overview/
 
 ## YouTube Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QwA_yBjVZdA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/QwA_yBjVZdA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 ![Image Description](/images/portfolio/AutonomousDrone/IMG_20191116_210726.jpg)
 
@@ -20,22 +20,19 @@ permalink: /autonomous-drone/overview/
 # Autonomous Drone Project Display
 
 ## Project Overview
-- **Role:** Treasurer and Robotics Engineer at Team BITS Robocon
-- **Timeline:** Feb 2019 - May 2021
+- **Role:** Robotics Engineer at Team Lesoko Technology
+- **Timeline:** FEB 2023 - Present
 
 ## Project Description
 - Led the development of an autonomous drone project with a focus on communication restoration in earthquake and hurricane scenarios.
-- The project aimed to propose a solution for disaster-stricken areas using tethered drones.
 
 ## Technical Highlights
-- **Drone Assembly:** Utilized basic drone components, PixHawk, Raspberry Pi, and depth sensors for construction.
-- **Communication Setup:** Established communication between Raspberry Pi/Intel NUC and Pixhawk using MAVLink for collision avoidance, complex planning, and mapping.
-- **Power Transmission:** Explored constant force springs and AC power systems for tethered power transmission.
+- **Drone Assembly:** Utilized basic drone components, PixHawk, Raspberry Pi, Jetson, LIDAR and depth sensors for construction.
+- **Communication Setup:** Established communication between Jetson/Intel NUC and Pixhawk using MAVLink for collision avoidance, complex planning, and mapping.
 - **Autonomous Flight:** Implemented GPS and altitude checkpoint-based automated flights using Pixhawk.
 
 ## Learning Outcomes
 - Acquired hands-on experience in drone assembly, planning algorithms, computer vision, and communication protocols.
 - Developed skills in ROS, sensor integration, and control algorithms.
-- Successfully secured funds for the lab through the acceptance of the research thread in the DRDO project proposal.
 
 This project not only showcased technical proficiency but also demonstrated the practical application of autonomous drone technology in disaster management scenarios.
