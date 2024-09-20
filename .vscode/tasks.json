@@ -1,23 +1,45 @@
 {
-    "version": "0.1.0",
+    "version": "2.0.0",
     "command": "cmd",
-    "args": ["/C", "bundle", "exec", "jekyll"],
-    "isShellCommand": true,
-    "showOutput": "always",
+    "args": [
+        "/C",
+        "bundle",
+        "exec",
+        "jekyll"
+    ],
     "tasks": 
     [
         {
-            "taskName": "Serve",
-            "showOutput": "always",
-            "suppressTaskName": true,
-            "args": ["serve", "--config", "_config.dev.yml"]
+            "label": "Serve",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/C",
+                "bundle",
+                "exec",
+                "jekyll",
+                "serve",
+                "--config",
+                "_config.dev.yml"
+            ],
+            "problemMatcher": []
         },
         {
-            "taskName": "Build",
-            "showOutput": "always",
-            "suppressTaskName": true,
-            "isBuildCommand": true,
-            "args": ["build"]
-        }   
+            "label": "Build",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/C",
+                "bundle",
+                "exec",
+                "jekyll",
+                "build"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "_id": "build",
+                "isDefault": false
+            }
+        }
     ]
 }

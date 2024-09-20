@@ -7,35 +7,35 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hoshiningen"
+title                    : "Ansh Shah"
 title_separator          : "-"
-name                     : "Brian Smith"
+name                     : "Ansh Shah"
 description              : "A central location where I can express myself through a personal blog and where I can display the projects I've been working on over the last couple of years."
-url                      : "https://ranjith7214.github.io"
+url                      : "https://anshshah3009.github.io"
 baseurl                  : 
-gh_repo                  : "https://github.com/Hoshiningen/hoshiningen.github.io"
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-# breadcrumbs            :  # true, false (default)
-words_per_minute         : 200
+gh_repo                  : "https://github.com/AnshShah3009/anshshah3009.github.io"
+teaser                   : "profile.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+breadcrumbs              :  false # true, false (default)
+words_per_minute         :  200
 comments:
   provider               : "disqus" # false (default), "disqus", "facebook", "google-plus", custom"
   disqus:
-    shortname            : "Hoshiningen"
+    shortname            : "anshshah3009"
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
 
 # SEO Related
-google_site_verification : LVUQ02fMfKpJgYG0eJzqA0fvAhXQ_A3QFn6ZhANH1pQ
+google_site_verification : 
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               :  "baymax3009"
 facebook:
   username               :
   app_id                 :
@@ -50,9 +50,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider               : "custom" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-76831719-1"
+    tracking_id          : "G-P4QQ9215TN"
 
 # Google AdSense
 google_ad_client         :
@@ -61,30 +61,30 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Brian Smith"
+  name             : "Ansh Shah"
   avatar           : "profile.jpg"
-  bio              : "A computer science student at Appalachian State University who also happens to be an unashamed cheese-a-tarian, computer geek, nerd, and bird lover."
-  location         : "Apex, North Carolina"
-  email            : "Hoshiningen@gmail.com"
+  bio              : "BITS Pilani Alum. Currently a research fellow at RRC, IIIT Hyderabad, exploring robotics applications of deep learning from vision, action to reasoning. Tennis and Wildlife enthusiast. Pasionately curious about the world around me."
+  location         : "Hyderabad, India"
+  email            : "anshshah3009@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : brian.smith.5815
+  facebook         : 
   foursquare       :
-  github           : "Hoshiningen"
+  github           : "AnshShah3009"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "bdsmith90"
+  linkedin         : "anshshah3009"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : https://stackoverflow.com/users/22560043/ansh-shah
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "baymax3009"
   vine             :
   weibo            :
   xing             :
@@ -153,7 +153,7 @@ timezone: US/Eastern
 
 
 # Plugins
-plugins:
+gems:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -210,14 +210,24 @@ include: ["_pages"]
 
 # Collections
 collections:
-    chemistry-solver:
+    multi-agent-robust-pgo:
       output: true
       permalink: /:collection/:path/
-    data-fitting:
+    autonomous-drone:
+      output: true
+      permalink: /:collection/:path/
+    cronus:
+      output: true
+      permalink: /:collection/:path/
+    micromouse:
+      output: true
+      permalink: /:collection/:path/
+    IRC:
       output: true
       permalink: /:collection/:path/
 
 defaults:
+
   # _pages
   - scope:
       path: ""
@@ -225,36 +235,76 @@ defaults:
     values:
       layout: single
       author_profile: true
+
   # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
       related: true
-  # _chemistry-solver
+
+  # _multirobot
   - scope:
       path: ""
-      type: chemistry-solver
+      type: multi-agent-robust-pgo
     values:
       layout: single
       author_profile: false
       read_time: true
       share: true
       sidebar:
-         nav: chemistry-solver
-  # _data-fitting
+         nav: multi-agent-robust-pgo
+
+  #autonomous_drone
   - scope:
       path: ""
-      type: data-fitting
+      type: autonomous-drone
     values:
       layout: single
       author_profile: false
       read_time: true
       share: true
       sidebar:
-         nav: data-fitting
+          nav: autonomous-drone
+          
+  #cronus
+  - scope:
+      path: ""
+      type: cronus
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      share: true
+      sidebar:
+          nav: cronus
+
+  #micromouse
+  - scope:
+      path: ""
+      type: micromouse
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      share: true
+      sidebar:
+          nav: micromouse
+  
+  # Internation robotics challenge
+  - scope:
+      path: ""
+      type: IRC
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      share: true
+      sidebar:
+          nav: IRC
+    

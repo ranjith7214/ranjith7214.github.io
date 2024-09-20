@@ -2,15 +2,35 @@
 permalink: /projects/
 title: "Projects"
 feature_row:
-  - image_path: portfolio/chemistry-solver/launcher.png
-    url: /chemistry-solver/overview/
-    alt: "Chemistry Solver"
-    title: "Chemistry Solver"
-    excerpt: "A collection of tools that solve various chemistry problems, such as equation balancing, stoichiometry, combustion analysis, and more."
-  - image_path: portfolio/data-fitting/chart-data-gui.png
-    url: /data-fitting/overview/
-    alt: "Data Fitting"
-    title: "Data Fitting"
-    excerpt: "A light-weight application that provides the functionality to create, customize, and save beautiful charts, perform polynomial regression, and make predictions through interpolation."
+
+  - image_path: portfolio/Swarm_Slam/MultiRobotMapping.png
+    url: /multi-agent-robust-pgo/
+    alt: "multi agent robust pgo"
+    title: "Multi Agent Robust PGO"
+    excerpt: "This project introduces a multi-agent mapping system using FinderNet and Graduated Non-Convexity, enhancing efficiency and robustness in large-scale mapping scenarios with comprehensive evaluations and simulations."
+
+  - image_path: portfolio/AutonomousDrone/autonomous drone iiit.png
+    url: /autonomous-drone/overview/
+    alt: "Autonomous Drone"
+    title: "Autonomous Drone"
+    excerpt: "This is a drone project"
+
+  - image_path: portfolio/Cronus/cronus_design.jpg
+    url: /cronus/overview/
+    alt: "Cronus"
+    title: "Cronus"
+    excerpt: "This is a survillance bot project"
+
+  - image_path: portfolio/Micromouse/IMG_20191130_203444.jpg
+    url: /micromouse/overview/
+    alt: "Micromouse"
+    title: "Micromouse"
+    excerpt: "This is a micromouse project"
+
+  - image_path: portfolio/Micromouse/IMG_20191130_203444.jpg
+    url: /IRC/overview/
+    alt: "IRC"
+    title: "IRC"
+    excerpt: "This is a IRC project"
 ---
 {% include feature_row type="left"%}

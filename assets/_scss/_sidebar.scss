@@ -12,7 +12,7 @@
 
   @include breakpoint($large) {
     @include span(2 of 12);
-    opacity: 0.75;
+    opacity: 1;
     transition: opacity 0.2s ease-in-out;
 
     &:hover {
@@ -67,8 +67,8 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
-  height: 36px;
+  width: 50px;
+  height: 50px;
 
   @include breakpoint($large) {
     display: block;
@@ -77,7 +77,7 @@
   }
 
   img {
-    max-width: 110px;
+    max-width: 150px; // Increase this value to make the image larger
     border-radius: 50%;
 
     @include breakpoint($large) {
@@ -86,6 +86,38 @@
     }
   }
 }
+
+// .author__avatar {
+//   display: table-cell;
+//   vertical-align: top;
+//   width: 50px;
+//   height: 50px;
+//   overflow: hidden; /* Ensure rounded corners don't get clipped */
+//   border-radius: 50%; /* Make it round */
+
+//   @include breakpoint($large) {
+//     display: block;
+//     width: auto;
+//     height: auto;
+//   }
+
+//   img {
+//     max-width: 100%; /* Ensure the image doesn't exceed its container */
+//     border-radius: 50%; /* Keep the image round */
+//     transition: transform 0.3s ease-in-out;
+
+//     @include breakpoint($large) {
+//       padding: 5px;
+//       border: 1px solid $border-color;
+//     }
+
+//     &:hover {
+//       transform: scale(1.5); /* Add a subtle zoom effect on hover */
+//     }
+//   }
+// }
+
+
 
 .author__content {
   display: table-cell;

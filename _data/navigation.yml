@@ -1,56 +1,118 @@
 # main links links
 main:
-  - title: "Projects"
-    url: /projects/
-
   - title: "About"
     url: /about/
 
-chemistry-solver:
-    - title: "Chemistry Solver"
-      children:
-        - title: "Overview"
-          url: /chemistry-solver/overview/
+  - title: "Projects"
+    url: /projects/
 
-        - title: "Launcher"
-          url: /chemistry-solver/launcher/ 
+  - title: "Resume"
+    url: /resume/
+
+  - title: "Contact"
+    url: /contact/
+  
+  - title: "Reading List"
+    url: /reading-list/
+
+# chemistry-solver:
+#     - title: "Chemistry Solver"
+#       children:
+#         - title: "Overview"
+#           url: /chemistry-solver/overview/
+
+#         - title: "Launcher"
+#           url: /chemistry-solver/launcher/ 
         
-        - title: "Equation Balancer"
-          url: /chemistry-solver/equation-balancer/
+#         - title: "Equation Balancer"
+#           url: /chemistry-solver/equation-balancer/
 
-        - title: "Combustion Analysis"
-          url: /chemistry-solver/combustion-analysis/
+#         - title: "Combustion Analysis"
+#           url: /chemistry-solver/combustion-analysis/
 
-        - title: "Stoichiometry"
-          url: /chemistry-solver/stoichiometry/
+#         - title: "Stoichiometry"
+#           url: /chemistry-solver/stoichiometry/
 
-        - title: "Periodic Table"
-          url: /chemistry-solver/periodic-table/
+#         - title: "Periodic Table"
+#           url: /chemistry-solver/periodic-table/
 
-        - title: "Empirical Formula Derivation"
-          url: /chemistry-solver/empirical-formula-derivation/
+#         - title: "Empirical Formula Derivation"
+#           url: /chemistry-solver/empirical-formula-derivation/
 
-        - title: "Unit Conversion"
-          url: /chemistry-solver/unit-conversion/
+#         - title: "Unit Conversion"
+#           url: /chemistry-solver/unit-conversion/
 
-data-fitting:
-    - title: "Data Fitting"
+# data-fitting:
+#     - title: "Data Fitting"
+#       children:
+#         - title: "Overview"
+#           url: /data-fitting/overview/
+
+#         - title: "Chart Data"
+#           url: /data-fitting/chart-data/
+
+#         - title: "Chart Settings"
+#           url: /data-fitting/chart-settings/
+
+#         - title: "Data Visualization"
+#           url: /data-fitting/data-visualization/
+
+
+multi-agent-robust-pgo:
+    - title: "Multi Agent Robust PGO"
+      url: /multi-agent-robust-pgo/
+      # children:
+      #   - title: "Overview"
+      #     url: /multi-agent-robust-pgo/overview/
+
+        # - title: "Experimentation"
+        #   url: /multi-agent-robust-pgo/experimentation/
+
+        # - title: "Result"
+        #   url: /multi-agent-robust-pgo/result/
+
+autonomous-drone:
+    - title: "Autonomous Drone"
       children:
         - title: "Overview"
-          url: /data-fitting/overview/
+          url: /autonomous-drone/overview/
 
-        - title: "Chart Data"
-          url: /data-fitting/chart-data/
+        # - title: "Experimentation"
+        #   url: /multi-agent-robust-pgo/experimentation/
 
-        - title: "Chart Settings"
-          url: /data-fitting/chart-settings/
+        # - title: "Result"
+        #   url: /multi-agent-robust-pgo/result/
 
-        - title: "Data Visualization"
-          url: /data-fitting/data-visualization/
+cronus:
+    - title: "Cronus"
+      children:
+        - title: "Overview"
+          url: /cronus/overview/
+
+        # - title: "Experimentation"
+        #   url: /multi-agent-robust-pgo/experimentation/
+
+        # - title: "Result"
+        #   url: /multi-agent-robust-pgo/result/
+
+micromouse:
+    - title: "Micromouse"
+      children:
+        - title: "Overview"
+          url: /micromouse/overview/
 
 projects:
-    - title: "Projects"
-      children:
-        - title: "Chemistry Solver"
-        - title: "Data Fitting"
-        
+  - title: "Projects"
+    children:
+      - title: "Multi Agent Robust PGO"
+      - title: "Autonomous Drone"
+      - title: "Cronus"
+      - title: "Micromouse"
+      - title: "IRC"
+
+# projects:
+#     - title: "Projects"
+#       children:
+#         - title: "Multi Agent Robust PGO"
+
+#         - title: "Autonomous Drone"
