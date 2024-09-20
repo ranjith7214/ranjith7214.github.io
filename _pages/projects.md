@@ -15,22 +15,22 @@ feature_row:
     title: "Autonomous Drone"
     excerpt: "This is a drone project"
 
-  - image_path: portfolio/Cronus/cronus_design.jpg
-    url: /cronus/overview/
-    alt: "Cronus"
-    title: "Cronus"
-    excerpt: "This is a survillance bot project"
+  # - image_path: portfolio/Cronus/cronus_design.jpg
+  #   url: /cronus/overview/
+  #   alt: "Cronus"
+  #   title: "Cronus"
+  #   excerpt: "This is a survillance bot project"
 
-  - image_path: portfolio/Micromouse/IMG_20191130_203444.jpg
-    url: /micromouse/overview/
-    alt: "Micromouse"
-    title: "Micromouse"
-    excerpt: "This is a micromouse project"
+  # - image_path: portfolio/Micromouse/IMG_20191130_203444.jpg
+  #   url: /micromouse/overview/
+  #   alt: "Micromouse"
+  #   title: "Micromouse"
+  #   excerpt: "This is a micromouse project"
 
-  - image_path: portfolio/Micromouse/IMG_20191130_203444.jpg
-    url: /IRC/overview/
-    alt: "IRC"
-    title: "IRC"
-    excerpt: "This is a IRC project"
+  # - image_path: portfolio/Micromouse/IMG_20191130_203444.jpg
+  #   url: /IRC/overview/
+  #   alt: "IRC"
+  #   title: "IRC"
+  #   excerpt: "This is a IRC project"
 ---
 {% include feature_row type="left"%}
