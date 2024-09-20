@@ -272,39 +272,39 @@ defaults:
       sidebar:
           nav: autonomous-drone
           
-  #cronus
-  - scope:
-      path: ""
-      type: cronus
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      share: true
-      sidebar:
-          nav: cronus
+  # #cronus
+  # - scope:
+  #     path: ""
+  #     type: cronus
+  #   values:
+  #     layout: single
+  #     author_profile: false
+  #     read_time: true
+  #     share: true
+  #     sidebar:
+  #         nav: cronus
 
-  #micromouse
-  - scope:
-      path: ""
-      type: micromouse
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      share: true
-      sidebar:
-          nav: micromouse
+  # #micromouse
+  # - scope:
+  #     path: ""
+  #     type: micromouse
+  #   values:
+  #     layout: single
+  #     author_profile: false
+  #     read_time: true
+  #     share: true
+  #     sidebar:
+  #         nav: micromouse
   
-  # Internation robotics challenge
-  - scope:
-      path: ""
-      type: IRC
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      share: true
-      sidebar:
-          nav: IRC
+  # # Internation robotics challenge
+  # - scope:
+  #     path: ""
+  #     type: IRC
+  #   values:
+  #     layout: single
+  #     author_profile: false
+  #     read_time: true
+  #     share: true
+  #     sidebar:
+  #         nav: IRC
     
