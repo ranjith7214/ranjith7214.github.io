@@ -6,7 +6,8 @@ title: "Reading List"
 ## Elegant Papers
 
 
-- **[ALOHA Unleashed: A Simple Recipe for Robot Dexterity](https://aloha-unleashed.github.io/assets/aloha_unleashed.pdf)**: Demonstration Imitation learning with a Multi View Transformer with priopioception can be used to learn dual arm fine manipulation skills.
+- **[ALOHA Unleashed: A Simple Recipe for Robot Dexterity](https://sarepenergy.net/wp-content/uploads/2023/07/20230217_Revised-Cover-Drone-Applications-for-Power-Sector_Whitepaper_FINAL-Print.pdf)**: Drone Application for
+the Indian Power Sector.
 
 - **[Learning Task-Driven Control Policies via Information Bottlenecks, RSS 2016](https://roboticsproceedings.org/rss16/p101.pdf)**: An elegant application of information theory principles to enhance robustness in deep learning.
 
