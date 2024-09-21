@@ -87,7 +87,7 @@ title: "Get in Touch"
     <p>I'm Ranjith Kumar, and I'm thrilled that you want to get in touch. Feel free to reach out through any of the following channels:</p>
 
     <!-- Formspree form -->
-    <form action="https://formspree.io/f/mpzgnvqv" method="POST">
+    <form action="https://formspree.io/f/xdknrzzb" method="POST">
       <label for="email">Your Email:</label>
       <input type="email" name="email" required>
 
