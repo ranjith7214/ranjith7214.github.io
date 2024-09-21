@@ -18,20 +18,20 @@ If the two page resume is not be getting displayed properl, please use a desktop
 
 
 <object
-	data="/documents/Ansh_Shah_s_CV-6.pdf"
+	data="/documents/ranjith_CV.pdf"
 	type="application/pdf"
 	width="100%"
 	height="100%"
 >
 	<iframe
-		src="/documents/Ansh_Shah_s_CV-6.pdf"
+		src="/documents/ranjith_CV.pdf"
 		width="100%"
 		height="100%"
 		style="border: none"
 	>
 		<p>
 			Your browser does not support PDFs.
-			<a href="/documents/Ansh_Shah_s_CV-6.pdf">Download the PDF</a>
+			<a href="/documents/ranjith_CV.pdf">Download the PDF</a>
 		</p>
 	</iframe>
 </object>
