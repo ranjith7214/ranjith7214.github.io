@@ -1,8 +1,8 @@
 ---
-title: "LIO SLAM"
+title: "VIO SLAM"
 header:
     overlay_color: "#777"
-excerpt: "LIO SLAM is a technique used in robotics and computer vision to simultaneously estimate the robot's trajectory and create a map of the environment."
+excerpt: "VIO SLAM is a technique used in robotics and computer vision to simultaneously estimate the robot's trajectory and create a map of the environment."
 categories:
     - Guides
     - Web
