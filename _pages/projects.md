@@ -4,10 +4,10 @@ title: "Projects"
 feature_row:
 
   - image_path: portfolio/Swarm_Slam/RFID.png
-    url: /multi-agent-robust-pgo/
-    alt: "multi agent robust pgo"
+    url: /rfid-drone/
+    alt: "rfid drone"
     title: "Warehouse Operations Drone"
-    excerpt: "This project introduces a multi-agent mapping system using FinderNet and Graduated Non-Convexity, enhancing efficiency and robustness in large-scale mapping scenarios with comprehensive evaluations and simulations."
+    excerpt: "Discover how RFID technology enhances the capabilities of drones in logistics and inventory management. This innovative integration allows for real-time tracking, improved accuracy in inventory counts, and streamlined operations. Explore the potential applications of RFID drones in sectors such as agriculture, warehousing, and supply chain management, and learn how they can revolutionize the way we monitor and manage assets."
 
   - image_path: portfolio/AutonomousDrone/autonomous drone iiit.png
     url: /autonomous-drone/overview/
