@@ -16,7 +16,7 @@ feature_row:
     excerpt: "Drones equipped with LiDAR for Indoor Mapping"
 
   - image_path: portfolio/Cronus/cronus_design.jpg
-    url: /thermal_image/overview/
+    url: /thermal-image/overview/
     alt: "thermal image"
     title: "Thermal Image Conversion"
     excerpt: "Thermal Image Conversion for Photogrammetry and Orthophoto"
