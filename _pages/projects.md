@@ -17,9 +17,9 @@ feature_row:
 
   - image_path: portfolio/Cronus/cronus_design.jpg
     url: /thermal_image/overview/
-    alt: "Cronus"
+    alt: "thermal_image"
     title: "Thermal Image Conversion"
-    excerpt: "Thermal Image Conversion Project"
+    excerpt: "Thermal Image Conversion for Photogrammetry and Orthophoto"
 
   # - image_path: portfolio/Micromouse/IMG_20191130_203444.jpg
   #   url: /micromouse/overview/
