@@ -15,11 +15,11 @@ feature_row:
     title: "Autonomous Drone"
     excerpt: "Drones equipped with LiDAR for Indoor Mapping"
 
-  # - image_path: portfolio/Cronus/cronus_design.jpg
-  #   url: /cronus/overview/
-  #   alt: "Cronus"
-  #   title: "Cronus"
-  #   excerpt: "This is a survillance bot project"
+  - image_path: portfolio/Cronus/cronus_design.jpg
+    url: /thermal_image/overview/
+    alt: "Cronus"
+    title: "Thermal Image Conversion"
+    excerpt: "Thermal Image Conversion Project"
 
   # - image_path: portfolio/Micromouse/IMG_20191130_203444.jpg
   #   url: /micromouse/overview/
