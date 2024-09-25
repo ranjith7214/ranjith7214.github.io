@@ -1,6 +1,6 @@
 ---
 title: "Overview"
-permalink: /thermal_image/overview/
+permalink: /rfid-drone/
 ---
 <!-- <div>
     <a href="https://github.com/AnshShah3009/AutonomousDrone" target="_blank" style="display: inline-block; padding: 10px 15px; background-color: #24292e; color: #ffffff; border-radius: 5px; font-family: Arial, sans-serif; text-decoration: none;">
