@@ -7,7 +7,7 @@ title: "Resume"
 ---
 
 
-If the two page resume is not be getting displayed properl, please use a desktop to view the resume. [Resume](/documents/Ansh_Shah_s_CV-6.pdf)
+If the two page resume is not be getting displayed properl, please use a desktop to view the resume. [Resume](/documents/ranjith_CV.pdf)
 
 <!-- <iframe
     src="/documents/Ansh_Shah_s_CV-6.pdf"
